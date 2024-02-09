@@ -1,4 +1,4 @@
-import Page from './page-model';
+import Page from './page_model';
 
 fixture `A set of examples that illustrate how to use TestCafe API`
     .page `https://devexpress.github.io/testcafe/example/`;
