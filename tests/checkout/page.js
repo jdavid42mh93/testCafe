@@ -2,7 +2,7 @@ import { Selector } from 'testcafe';
 
 export default class Page {
     constructor () {
-        this.addProductItem        = Selector('//*[@id="content"]/div[2]/div[1]/div/div[3]/button[1]');
-        this.shoppingCartButton    = Selector('//*[contains(text(),"shopping cart")]')
+        this.addProductItem        = Selector('#content > div.row > div:nth-child(1) > div > div.button-group > button:nth-child(1)');
+        this.shoppingCartButton    = Selector('#common-home > div.alert.alert-success.alert-dismissible > a:nth-child(3)')
     }
 }
